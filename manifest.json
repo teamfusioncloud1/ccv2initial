@@ -58,7 +58,16 @@
 		"assistedserviceatddtests",
 		"promotionengineatddtests",
 		"textfieldconfiguratortemplateatddtests",
-		"pcmbackofficesamplesaddon"
+		"pcmbackofficesamplesaddon",
+	    	"saprevenuecloudcustomer",
+		"saprevenuecloudproduct",
+		"saprevenuecloudorder",
+		"scpiconnector",
+		"sapsubscriptionaddon",
+		"saprevenuecloudbackoffice",
+		"yaasconfiguration",
+		"yaasconfigurationbackoffice",
+		"subscriptionservices"
     ],
     "storefrontAddons" : [
 		{
@@ -120,6 +129,11 @@
             "addon": "personalizationsearchsamplesaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "sapsubscriptionaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
         }
     ],
     "properties": [
@@ -132,9 +146,36 @@
             "value": "test.property.2.value"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value.in.prod.only",
-            "persona": "production"
+            "key": "scpi.connector.baseurl",
+            "value": "https://cd7t05-iflmap.hcisb.int.sap.hana.ondemand.com"
+        },
+        {
+            "key": "scpi.connector.proxy.url",
+            "value": ""
+        },
+        {
+            "key": "scpi.connector.username",
+            "value": "P2000113031"
+        },
+        {
+            "key": "scpi.connector.password",
+            "value": ""
+        },
+        {
+            "key": "subscription.order.path.url",
+            "value": "//http/revenuecloud/subscriptionorder"
+        },
+        {
+            "key": "saprevenuecloudcustomer.cloudplatformintegration.iflowurl",
+            "value": "//http/revenuecloud/customer"
+        },
+        {
+            "key": "saprevenuecloud.product.outbound.scpi.iflowurl",
+            "value": "//http/revenuecloud/product"
+        },
+        {
+            "key": "saprevenuecloudcustomer.default.country",
+            "value": "US"
         }
     ],
     "aspects": [
