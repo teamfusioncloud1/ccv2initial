@@ -59,6 +59,7 @@
 		"promotionengineatddtests",
 		"textfieldconfiguratortemplateatddtests",
 		"pcmbackofficesamplesaddon",
+	    	"saprevenuecloudcustomer",
 		"saprevenuecloudproduct",
 		"saprevenuecloudorder",
 		"scpiconnector",
