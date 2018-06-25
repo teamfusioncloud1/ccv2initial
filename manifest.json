@@ -58,16 +58,7 @@
 		"assistedserviceatddtests",
 		"promotionengineatddtests",
 		"textfieldconfiguratortemplateatddtests",
-		"pcmbackofficesamplesaddon",
-	    	"saprevenuecloudcustomer",
-		"saprevenuecloudproduct",
-		"saprevenuecloudorder",
-		"scpiconnector",
-		"sapsubscriptionaddon",
-		"saprevenuecloudbackoffice",
-		"yaasconfiguration",
-		"yaasconfigurationbackoffice",
-		"subscriptionservices"
+		"pcmbackofficesamplesaddon"
     ],
     "storefrontAddons" : [
 		{
@@ -127,11 +118,6 @@
         },
 		{
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-		{
-            "addon": "sapsubscriptionaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         }
