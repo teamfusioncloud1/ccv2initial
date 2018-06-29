@@ -200,6 +200,10 @@
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
+		{
+                    "name": "outh2",
+                    "contextPath": "/authorizationserver"
+                },
                 {
                     "name": "backoffice",
                     "contextPath": ""
@@ -245,6 +249,10 @@
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
+                },
+		{
+                    "name": "outh2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         },
