@@ -201,7 +201,7 @@
                     "contextPath": "/medias"
                 },
 		{
-                    "name": "outh2",
+                    "name": "oauth2",
                     "contextPath": "/authorizationserver"
                 },
                 {
@@ -251,7 +251,7 @@
                     "contextPath": "/acceleratorservices"
                 },
 		{
-                    "name": "outh2",
+                    "name": "oauth2",
                     "contextPath": "/authorizationserver"
                 }
             ]
@@ -262,7 +262,7 @@
             "webapps": [
                 {
                     "name": "hac",
-                    "contextPath": ""
+                    "contextPath": "/hac"
                 },
                 {
                     "name": "mediaweb",
